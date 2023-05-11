@@ -15,6 +15,7 @@ INST="sudo pacman --noconfirm"
 CONFIG="$HOME/.config/"
 FONT="$HOME/.local/share/fonts/"
 BINS="/usr/local/bin/"
+GITHUB="git config --global"
 
 
 printf "\n\n[$] > Updating system packages...\n\n"
@@ -41,6 +42,9 @@ cp -r "$PWD/font/"* "$FONT"
 cp -r "$PWD/src/"* "$CONFIG"
 cp -r "$PWD/shell/".[^.]* "$HOME"
 sudo cp -r "$PWD/fetcher/"* "$BINS"
+$GITHUB user.email fidelicura@gmail.com
+$GITHUB user.name fidelicura
+$GITHUB credential.helper store
 
 
 printf "\n\n[$] > Done! Thanks for installing.\n"
