@@ -1,0 +1,10 @@
+configuration {
+  modi: "drun";
+  show-icons: true;
+  icon-theme: "Papirus";
+  display-drun: "Search:";
+  drun-display-format: "{icon} {name}";
+  font: "JetBrains Mono Nerd Font SemiBold 12";
+}
+
+@theme "theme.rasi"
