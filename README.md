@@ -40,7 +40,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 
 ## Libraries
 
-- [x] **Archive Extractor** -> unzip
+- [x] **Archive Extractors** -> unzip, unrar
 - [x] **AppImage Library** -> fuse2
 - [x] **Copyboard Library** -> xclip
 - [x] **Display Settings** -> xrandr

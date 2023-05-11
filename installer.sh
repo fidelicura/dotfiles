@@ -23,7 +23,7 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S unzip xclip xorg xorg-xinit xorg-xdm fuse2 tree nvidia
+$INST -S unzip unrar xclip xorg xorg-xinit xorg-xdm fuse2 tree nvidia
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xcolor feh fzf flameshot papirus-icon-theme  
 printf "\n\n[$] > Installing applications...\n\n"
