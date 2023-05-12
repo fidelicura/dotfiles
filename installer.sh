@@ -6,6 +6,7 @@ clear
 printf "[$] > Welcome!\n"
 printf "[$] > Installer will update your system before installation.\n"
 printf "[$] > Installer will change gitconfig file.\n"
+printf "[$] > Installer will clear package manager cache.\n"
 printf "[$] > If you are OK with this, confirm with your password.\n"
 sudo printf "[$] > Installation started!"
 
@@ -45,6 +46,10 @@ sudo cp -r "$PWD/fetcher/"* "$BINS"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
 $GITHUB credential.helper store
+
+
+printf "\n\n[$] > Clearing cache of packages...\n\n"
+sudo pacman --noconfirm -Sc
 
 
 printf "\n\n[$] > Done! Thanks for installing.\n"
