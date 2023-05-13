@@ -29,6 +29,7 @@ printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xcolor feh fzf flameshot papirus-icon-theme ranger wget curl
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler firefox telegram-desktop discord qbittorrent 
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -S python gcc

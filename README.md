@@ -29,6 +29,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Messenger** -> Telegram
 - [x] **VoIP** -> Discord
 - [x] **Torrent** -> QBitTorrent
+- [x] **Notes** -> Joplin
 
 ## Utilities
 
