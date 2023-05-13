@@ -38,7 +38,6 @@ $INST -S python gcc
 printf "\n\n[$] > Creating folders...\n\n"
 mkdir -p "$CONFIG" "$FONT"
 mkdir $HOME/Projects
-mkdir $HOME/Notes
 mkdir $HOME/Screenshots
 
 
