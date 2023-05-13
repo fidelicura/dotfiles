@@ -37,6 +37,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Icons Theme** -> papirus
 - [x] **Screenshot Tool** -> flameshot
 - [x] **File Finder** -> fzf
+- [x] **File Retrievers** -> wget, curl
 
 ## Libraries
 
