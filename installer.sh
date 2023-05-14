@@ -12,7 +12,7 @@ sudo printf "[$] > Installation started!"
 
 
 printf "\n\n[$] > Creating temporary shell variables...\n\n"
-INST="sudo pacman --noconfirm"
+INST="sudo pacman --needed --noconfirm"
 CONFIG="$HOME/.config/"
 FONT="$HOME/.local/share/fonts/"
 BINS="/usr/local/bin/"
@@ -24,15 +24,15 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S unzip unrar xclip xorg xorg-xinit xorg-xdm fuse2 tree nvidia base-devel
+$INST -Sy unzip unrar xclip xorg xorg-xinit xorg-xdm fuse2 tree nvidia base-devel
 printf "\n\n[$] > Installing utilities...\n\n"
-$INST -S xcolor feh flameshot papirus-icon-theme wget curl lxqt-policykit
+$INST -Sy xcolor feh flameshot papirus-icon-theme wget curl lxqt-policykit
 printf "\n\n[$] > Installing applications...\n\n"
-$INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -S firefox telegram-desktop discord qbittorrent ranger
+$INST -Sy qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
+$INST -Sy firefox telegram-desktop discord qbittorrent ranger
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
-$INST -S python gcc
+$INST -Sy python gcc
 
 
 printf "\n\n[$] > Creating folders...\n\n"
