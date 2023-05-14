@@ -1,1 +1,1 @@
-exec qtile start
+lxqt-policykit & exec qtile start
