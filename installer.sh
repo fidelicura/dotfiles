@@ -58,6 +58,21 @@ printf "\n\n[$] > Clearing cache of packages...\n\n"
 sudo pacman --noconfirm -Sc
 
 
+printf "\n\n[$] > Creating symbolic links to useful desktop entries...\n\n"
+declare -a desktop_files=(
+        "Alacritty.desktop"
+        "discord.desktop"
+        "firefox.desktop"
+        "org.qbittorrent.qBittorrent.desktop"
+        "org.telegram.desktop.desktop"
+        "xcolor.desktop"
+)
+for file in "${desktop_files[@]}"
+do
+        ln -s "/usr/share/applications/$file" "$HOME/Apps/$file"
+done
+
+
 printf "\n\n[$] > Done! Thanks for installing.\n"
 printf "[$] > Any questions/suggestions, you're welcome: https://github.com/qoopdata\n"
 printf "[$] > Have a productive day!\n"
