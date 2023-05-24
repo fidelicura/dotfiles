@@ -36,7 +36,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Terminal Info** -> pfetch
 - [x] **Color Picker** -> xcolor
 - [x] **Icons Theme** -> papirus
-- [x] **Screenshot Tool** -> unknown
+- [x] **Screenshot Tool** -> hacksaw, shotgun
 - [x] **File Finder** -> fzf
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire

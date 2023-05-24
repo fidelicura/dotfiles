@@ -7,11 +7,14 @@ import os, subprocess
 
 mod = "mod4"
 gruv = "9a8a7a"
+alacritty = "alacritty"
+rofi = "rofi -show drun"
+screenshot = f"shotgun -f png -g $(hacksaw -g 2 -s 2 -c {gruv}) - | xclip -t 'image/png' -selection clipboard"
 
 keys = [
-    Key([mod], "p", lazy.spawn("rofi -show drun")),
-    Key([mod], "Return", lazy.spawn("alacritty")),
-    Key([], "Print", lazy.spawn("flameshot gui")),
+    Key([mod], "p", lazy.spawn(rofi)),
+    Key([mod], "Return", lazy.spawn(alacritty)),
+    Key([], "Print", lazy.spawn(screenshot)),
 
     Key([mod], "m", lazy.window.toggle_minimize()),
     Key([mod], "w", lazy.window.kill()),
@@ -20,7 +23,6 @@ keys = [
 ]
 
 groups = [Group(i) for i in "12345"]
-
 for i in groups:
     keys.extend(
         [
@@ -55,7 +57,6 @@ dgroups_app_rules = []
 follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
-
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 reconfigure_screens = True
