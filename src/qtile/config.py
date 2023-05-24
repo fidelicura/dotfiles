@@ -8,7 +8,7 @@ import os, subprocess
 mod = "mod4"
 gruv = "9a8a7a"
 alacritty = "alacritty"
-rofi = "rofi -show drun -app-list ~/Apps/"
+rofi = "rofi -show drun"
 screenshot = f"bash -c 'shotgun -f png -g $(hacksaw -g 2 -s 2 -c {gruv}) - | tee $HOME/Screenshots/screenshot-$(date +%Y-%m-%d-%H-%M-%S).png | xclip -t \"image/png\" -selection clipboard'"
 
 keys = [
