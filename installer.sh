@@ -30,7 +30,7 @@ $INST -Sy xclip xcolor feh papirus-icon-theme wget curl
 $INST -Sy pipewire pipewire-pulse pipewire-media-session
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -Sy qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -Sy firefox telegram-desktop discord qbittorrent ranger
+$INST -Sy firefox telegram-desktop discord qbittorrent ranger obsidian
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -Sy python gcc
@@ -60,11 +60,12 @@ sudo pacman --noconfirm -Sc
 
 printf "\n\n[$] > Creating symbolic links to useful desktop entries...\n\n"
 declare -a desktop_files=(
-        "Alacritty.desktop"
-        "discord.desktop"
-        "firefox.desktop"
         "org.qbittorrent.qBittorrent.desktop"
         "org.telegram.desktop.desktop"
+        "Alacritty.desktop"
+        "obsidian.desktop"
+        "discord.desktop"
+        "firefox.desktop"
         "xcolor.desktop"
 )
 for file in "${desktop_files[@]}"
