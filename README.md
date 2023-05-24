@@ -37,7 +37,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Color Picker** -> xcolor
 - [x] **Icons Theme** -> papirus
 - [x] **Screenshot Tool** -> hacksaw, shotgun
-- [x] **File Finder** -> fzf
+- [x] **File Manager** -> ranger
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
 
