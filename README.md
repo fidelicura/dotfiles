@@ -8,7 +8,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 
 ## System
 
-- [x] **Distribution** -> Arch
+- [x] **Distribution** -> Artix
 - [x] **GPU Drivers** -> NVIDIA
 
 ## Workspace
@@ -17,26 +17,26 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Compositor** -> Picom
 - [x] **App Launcher** -> Rofi
 - [x] **Background** -> Feh
-- [x] **Font** -> JetBrains (Mono, Nerd, Liga)
+- [x] **Font** -> JetBrains
 - [x] **Browser** -> Firefox
 
 ## Apps
 
 - [x] **Terminal** -> Alacritty
 - [x] **Text Editor** -> Neovim
-- [x] **Shell** -> Pure Bash
+- [x] **Shell** -> Bash
 - [x] **Document Reader** -> Zathura
 - [x] **Messenger** -> Telegram
 - [x] **VoIP** -> Discord
 - [x] **Torrent** -> QBitTorrent
-- [x] **Notes** -> Joplin
+- [x] **Notes** -> Obsidian
 
 ## Utilities
 
 - [x] **Terminal Info** -> pfetch
 - [x] **Color Picker** -> xcolor
 - [x] **Icons Theme** -> papirus
-- [x] **Screenshot Tool** -> flameshot
+- [x] **Screenshot Tool** -> unknown
 - [x] **File Finder** -> fzf
 - [x] **File Retrievers** -> wget, curl
 

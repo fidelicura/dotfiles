@@ -24,9 +24,9 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -Sy unzip unrar xclip xorg xorg-xinit xorg-xdm fuse2 tree nvidia base-devel
+$INST -Sy unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 tree nvidia base-devel
 printf "\n\n[$] > Installing utilities...\n\n"
-$INST -Sy xcolor feh flameshot papirus-icon-theme wget curl lxqt-policykit
+$INST -Sy xclip xcolor feh papirus-icon-theme wget curl
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -Sy qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
 $INST -Sy firefox telegram-desktop discord qbittorrent ranger
