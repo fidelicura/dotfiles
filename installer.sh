@@ -59,5 +59,5 @@ sudo pacman --noconfirm -Sc
 
 
 printf "\n\n[$] > Done! Thanks for installing.\n"
-printf "[$] > Any questions/suggestions, you're welcome: https://github.com/qoopdata\n"
+printf "[$] > Any questions/suggestions, you're welcome: https://github.com/fidelicura\n"
 printf "[$] > Have a productive day!\n"
