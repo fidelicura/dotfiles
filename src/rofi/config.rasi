@@ -1,5 +1,6 @@
 configuration {
   modi: "drun";
+  cycle: false;
   show-icons: true;
   icon-theme: "Papirus";
   display-drun: "Search:";
