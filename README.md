@@ -39,6 +39,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Screenshot Tool** -> unknown
 - [x] **File Finder** -> fzf
 - [x] **File Retrievers** -> wget, curl
+- [x] **Audio** -> pipewire
 
 ## Libraries
 
