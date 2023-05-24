@@ -40,7 +40,7 @@ printf "\n\n[$] > Creating folders...\n\n"
 mkdir -p "$CONFIG" "$FONT"
 mkdir $HOME/Projects
 mkdir $HOME/Screenshots
-mkdir $HOME/Apps
+mkdir $HOME/Notes
 
 
 printf "\n\n[$] > Copying config files...\n\n"
