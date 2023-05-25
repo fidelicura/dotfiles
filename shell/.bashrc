@@ -19,6 +19,10 @@ alias vim="nvim"
 
 cd() { command cd "$@"; ls; }
 clear() { command clear; pfetch; ls; }
+bashclear() {
+        history -c && history -w
+        printf "\n[$] > Bash history cleared.\n"
+}
 
 COLOR_START="\[\033[01;47;30m\]"
 COLOR_END="\[\033[00m\]"
