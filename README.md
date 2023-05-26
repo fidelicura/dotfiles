@@ -40,6 +40,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **File Manager** -> ranger
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
+- [x] **External Devices Automounter** -> udiskie
 
 ## Libraries
 
