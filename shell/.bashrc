@@ -1,5 +1,6 @@
 [[ $- != *i* ]] && return
 
+export PATH="$HOME/.cargo/bin:$PATH"
 export PF_INFO="ascii title os pkgs wm shell editor"
 export PF_ASCII="linux"
 export PF_COLOR=1
