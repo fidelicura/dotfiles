@@ -19,7 +19,7 @@ alias vi="nvim"
 alias vim="nvim"
 
 cd() { command cd "$@"; ls; }
-clear() { command clear; pfetch; ls; }
+clear() { command clear; onefetch $HOME/Dotfiles ; ls; }
 bashclear() {
         history -c && history -w
         printf "\n[$] > Bash history cleared.\n"
@@ -30,5 +30,5 @@ COLOR_END="\[\033[00m\]"
 PS1="
 [#] \w [>] "
 
-pfetch
+onefetch $HOME/Dotfiles
 ls

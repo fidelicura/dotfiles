@@ -30,7 +30,7 @@ $INST -Sy xclip xcolor feh udiskie papirus-icon-theme wget curl
 $INST -Sy pipewire pipewire-pulse pipewire-media-session
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -Sy qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -Sy firefox telegram-desktop discord qbittorrent ranger obsidian
+$INST -Sy firefox telegram-desktop discord qbittorrent ranger obsidian onefetch
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -Sy python gcc
@@ -47,7 +47,6 @@ printf "\n\n[$] > Copying config files...\n\n"
 cp -r "$PWD/font/"* "$FONT"
 cp -r "$PWD/src/"* "$CONFIG"
 cp -r "$PWD/shell/".[^.]* "$HOME"
-sudo cp -r "$PWD/fetcher/"* "$BINS"
 sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
