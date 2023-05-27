@@ -22,7 +22,7 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config()),
 ]
 
-groups = [Group(i) for i in "12345"]
+groups = [Group(i) for i in "123456"]
 for i in groups:
     keys.extend(
         [
