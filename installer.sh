@@ -42,6 +42,7 @@ mkdir -p "$CONFIG" "$FONT"
 mkdir $HOME/Projects
 mkdir $HOME/Screenshots
 mkdir $HOME/Notes
+mkdir $HOME/Games
 
 
 printf "\n\n[$] > Copying config files...\n\n"

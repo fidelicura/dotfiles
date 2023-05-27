@@ -3,8 +3,8 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 
 ## Screenshots
 
-![pfetch](/screenshots/pfetch.png/?raw=true)
-![repo](/screenshots/repo.png/?raw=true)
+![alacritty](/screenshots/alacritty.png/?raw=true)
+![neovim](/screenshots/neovim.png/?raw=true)
 ![firefox](/screenshots/firefox.png/?raw=true)
 ![zathura](/screenshots/zathura.png/?raw=true)
 ![obsidian](/screenshots/obsidian.png/?raw=true)
