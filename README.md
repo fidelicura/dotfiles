@@ -1,6 +1,10 @@
 Hello and welcome! So, goal of my configurations is simple: run `installer.sh` and start to work!
 I think, this is really hard to achieve goal, but I'm trying my best. Thanks and have a nice day.
 
+## Screenshots
+
+![Desktop Screenshot](/screenshots/pfetch.png/?raw=true)
+
 ## Config State
 
 - [x] Files
