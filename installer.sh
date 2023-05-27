@@ -50,6 +50,7 @@ printf "\n\n[$] > Copying config files...\n\n"
 cp -r "$PWD/font/"* "$FONT"
 cp -r "$PWD/src/"* "$CONFIG"
 cp -r "$PWD/shell/".[^.]* "$HOME"
+sudo cp -r "$PWD/mirroring/"* "/etc/"
 sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
