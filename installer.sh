@@ -24,16 +24,17 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -Sy unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 tree nvidia
+$INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 tree
+$INST -S nvidia nvidia-utils vulkan-icd-loader vulkan-headers
 printf "\n\n[$] > Installing utilities...\n\n"
-$INST -Sy xclip xcolor feh udiskie papirus-icon-theme wget curl
-$INST -Sy pipewire pipewire-pulse pipewire-media-session
+$INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl
+$INST -S pipewire pipewire-pulse pipewire-media-session
 printf "\n\n[$] > Installing applications...\n\n"
-$INST -Sy qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -Sy firefox telegram-desktop discord qbittorrent ranger obsidian onefetch
+$INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler lutris
+$INST -S firefox telegram-desktop discord qbittorrent ranger obsidian onefetch
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
-$INST -Sy python gcc
+$INST -S python gcc
 
 
 printf "\n\n[$] > Creating folders...\n\n"
