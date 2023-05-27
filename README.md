@@ -7,6 +7,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 ![repo](/screenshots/repo.png/?raw=true)
 ![firefox](/screenshots/firefox.png/?raw=true)
 ![zathura](/screenshots/zathura.png/?raw=true)
+![obsidian](/screenshots/obsidian.png/?raw=true)
 
 ## Config State
 
