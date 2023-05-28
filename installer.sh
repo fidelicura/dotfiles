@@ -42,6 +42,7 @@ mkdir -p "$CONFIG" "$FONT"
 mkdir $HOME/Screenshots
 mkdir $HOME/Downloads
 mkdir $HOME/Projects
+mkdir $HOME/Books
 mkdir $HOME/Notes
 mkdir $HOME/Games
 
