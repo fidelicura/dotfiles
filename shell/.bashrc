@@ -17,6 +17,9 @@ cd() { command cd "$@"; ls; }
 clear() { command clear; onefetch; ls; }
 bashclear() {
         history -c && history -w
+        command clear
+        onefetch
+        ls
         printf "\n[$] > Bash history cleared.\n"
 }
 
