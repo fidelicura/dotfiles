@@ -55,6 +55,7 @@ sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
 $GITHUB credential.helper store
+$GITHUB http.postBuffer 157286400
 
 
 printf "\n\n[$] > Clearing cache of packages...\n\n"
