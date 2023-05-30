@@ -44,6 +44,8 @@ mkdir $HOME/Projects
 mkdir $HOME/Books
 mkdir $HOME/Notes
 mkdir $HOME/Games
+mkdir $HOME/Games/Instances
+mkdir $HOME/Games/Lutrisenses
 
 
 printf "\n\n[$] > Copying config files...\n\n"
