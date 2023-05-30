@@ -24,7 +24,7 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 tree nvidia
+$INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 tree nvidia intel-ucode
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl
 $INST -S pipewire pipewire-pulse pipewire-media-session
