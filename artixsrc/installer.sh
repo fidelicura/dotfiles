@@ -62,4 +62,4 @@ mount $part1 /mnt/boot
 # Install base system and kernel
 basestrap /mnt base base-devel $my_init elogind-$my_init $fs_pkgs efibootmgr grub $ucode dhcpcd connman-$my_init
 basestrap /mnt linux linux-firmware linux-headers mkinitcpio
-fstabgen -U /mnt > /mnt/etc/fstab
+fstabgen -U /mnt >> /mnt/etc/fstab
