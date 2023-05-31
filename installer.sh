@@ -23,10 +23,6 @@ printf "\n\n[$] > Updating system packages...\n\n"
 $INST -Syu
 
 
-printf "\n\n[$] > Configurating package manager...\n"
-sudo cp -r "$PWD/mirroring/"* "/etc/"
-
-
 printf "\n\n[$] > Installing libraries...\n\n"
 $INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 nvidia intel-ucode
 printf "\n\n[$] > Installing utilities...\n\n"
@@ -41,7 +37,7 @@ $INST -S python gcc
 
 
 printf "\n\n[$] > Creating folders...\n\n"
-mkdir -p "$CONFIG" "$FONT"
+sudo mkdir -p "$CONFIG" "$FONT"
 mkdir $HOME/Screenshots
 mkdir $HOME/Downloads
 mkdir $HOME/Projects
@@ -53,14 +49,18 @@ mkdir $HOME/Games/Lutrisenses
 
 
 printf "\n\n[$] > Copying config files...\n\n"
-cp -r "$PWD/font/"* "$FONT"
-cp -r "$PWD/src/"* "$CONFIG"
-cp -r "$PWD/shell/".[^.]* "$HOME"
+sudo cp -r "$PWD/font/"* "$FONT"
+sudo cp -r "$PWD/src/"* "$CONFIG"
+sudo cp -r "$PWD/shell/".[^.]* "$HOME"
 sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
 $GITHUB credential.helper store
 $GITHUB http.postBuffer 157286400
+
+
+printf "\n\n[$] > Updating system packages...\n\n"
+$INST -Syu
 
 
 printf "\n\n[$] > Clearing cache of packages...\n\n"
