@@ -23,14 +23,18 @@ printf "\n\n[$] > Updating system packages...\n\n"
 $INST -Syu
 
 
+printf "\n\n[$] > Configurating package manager...\n"
+sudo cp -r "$PWD/mirroring/"* "/etc/"
+
+
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 tree nvidia intel-ucode
+$INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 nvidia intel-ucode
 printf "\n\n[$] > Installing utilities...\n\n"
-$INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl
+$INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl tree
 $INST -S pipewire pipewire-pulse pipewire-media-session
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -S firefox telegram-desktop discord qbittorrent ranger obsidian onefetch
+$INST -S firefox telegram-desktop discord qbittorrent ranger obsidian
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -S python gcc
@@ -52,7 +56,6 @@ printf "\n\n[$] > Copying config files...\n\n"
 cp -r "$PWD/font/"* "$FONT"
 cp -r "$PWD/src/"* "$CONFIG"
 cp -r "$PWD/shell/".[^.]* "$HOME"
-sudo cp -r "$PWD/mirroring/"* "/etc/"
 sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
