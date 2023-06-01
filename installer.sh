@@ -27,8 +27,8 @@ printf "\n\n[$] > Installing libraries...\n\n"
 $INST -S fuse2 nvidia intel-ucode
 $INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit
 printf "\n\n[$] > Installing utilities...\n\n"
-$INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl tree
-$INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar
+$INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl tree hacksaw
+$INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
 $INST -S firefox qbittorrent ranger obsidian neofetch
@@ -38,7 +38,7 @@ $INST -S python gcc
 
 
 printf "\n\n[$] > Creating folders...\n\n"
-sudo mkdir -p "$CONFIG" "$FONT"
+mkdir -p "$CONFIG" "$FONT"
 mkdir $HOME/Screenshots
 mkdir $HOME/Downloads
 mkdir $HOME/Projects
@@ -50,9 +50,9 @@ mkdir $HOME/Games/Lutrisenses
 
 
 printf "\n\n[$] > Copying config files...\n\n"
-sudo cp -r "$PWD/font/"* "$FONT"
-sudo cp -r "$PWD/src/"* "$CONFIG"
-sudo cp -r "$PWD/shell/".[^.]* "$HOME"
+cp -r "$PWD/font/"* "$FONT"
+cp -r "$PWD/src/"* "$CONFIG"
+cp -r "$PWD/shell/".[^.]* "$HOME"
 sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
 $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
