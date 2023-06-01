@@ -24,13 +24,14 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S unzip unrar xorg-server xorg-server-common xorg-xrandr xorg-xinit fuse2 nvidia intel-ucode
+$INST -S fuse2 nvidia intel-ucode
+$INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl tree
-$INST -S pipewire pipewire-pulse pipewire-media-session
+$INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -S firefox telegram-desktop discord qbittorrent ranger obsidian
+$INST -S firefox qbittorrent ranger obsidian neofetch
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -S python gcc
@@ -71,3 +72,4 @@ printf "\n\n[$] > Done! Thanks for installing.\n"
 printf "[$] > Do not forget to reboot your system after this installation!\n"
 printf "[$] > Any questions/suggestions, you're welcome: https://github.com/fidelicura\n"
 printf "[$] > Have a productive day!\n"
+sudo reboot

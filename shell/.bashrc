@@ -6,7 +6,6 @@ export EDITOR="nvim"
 alias free="free -mht"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
-alias onefetch="onefetch $HOME/Dotfiles --no-color-palette -d languages"
 alias dmesg="dmesg --color=auto --reltime --human --nopager --decode"
 
 alias v="nvim"
@@ -14,11 +13,11 @@ alias vi="nvim"
 alias vim="nvim"
 
 cd() { command cd "$@"; ls; }
-clear() { command clear; onefetch; ls; }
+clear() { command clear; neofetch; ls; }
 bashclear() {
         history -c && history -w
         command clear
-        onefetch
+        neofetch
         ls
         printf "\n[$] > Bash history cleared.\n"
 }
@@ -26,5 +25,5 @@ bashclear() {
 PS1="
 [#] \w [>] "
 
-onefetch
+neofetch
 ls
