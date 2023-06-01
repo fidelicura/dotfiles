@@ -27,7 +27,7 @@ printf "\n\n[$] > Installing libraries...\n\n"
 $INST -S fuse2 nvidia intel-ucode
 $INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit
 printf "\n\n[$] > Installing utilities...\n\n"
-$INST -S xclip xcolor feh udiskie papirus-icon-theme wget curl tree hacksaw
+$INST -S xclip xcolor feh papirus-icon-theme wget curl tree hacksaw
 $INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
