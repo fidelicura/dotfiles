@@ -1,4 +1,0 @@
-system:
-  limit_cpu_count: '1'
-  resolution: 1400x1050
-  single_cpu: false

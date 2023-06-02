@@ -1,9 +1,0 @@
-system:
-  limit_cpu_count: '4'
-  resolution: 1400x1050
-  single_cpu: false
-wine:
-  battleye: false
-  eac: false
-  esync: true
-  fsr: false
