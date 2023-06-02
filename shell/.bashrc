@@ -4,6 +4,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR="nvim"
 
 alias free="free -mht"
+alias date='date +"%D %T"'
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias dmesg="dmesg --color=auto --reltime --human --nopager --decode"
