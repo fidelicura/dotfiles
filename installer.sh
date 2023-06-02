@@ -24,14 +24,14 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S fuse2 nvidia intel-ucode
+$INST -S intel-ucode nvidia nvidia-utils lib32-nvidia-utils
 $INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xclip xcolor feh papirus-icon-theme wget curl tree hacksaw
 $INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -S firefox rtorrent ranger obsidian neofetch 
+$INST -S firefox rtorrent ranger obsidian neofetch wine 
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -S python gcc

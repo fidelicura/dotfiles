@@ -38,7 +38,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Document Reader** -> zathura
 - [x] **Torrent** -> rtorrent
 - [x] **Notes** -> obsidian
-- [x] **Gaming** -> proton-ge qt 
+- [x] **Gaming** -> wine
 
 ## Utilities
 
