@@ -15,6 +15,7 @@ printf "\n\n[$] > Creating temporary shell variables...\n\n"
 INST="sudo pacman --needed --noconfirm"
 CONFIG="$HOME/.config/"
 FONT="$HOME/.local/share/fonts/"
+LOGOS="$HOME/.local/share/logos/"
 BINS="/usr/local/bin/"
 GITHUB="git config --global"
 
@@ -39,6 +40,7 @@ $INST -S python gcc
 
 printf "\n\n[$] > Creating folders...\n\n"
 mkdir -p "$CONFIG" "$FONT"
+mkdir -p "$CONFIG" "$LOGOS"
 mkdir $HOME/Screenshots
 mkdir $HOME/Downloads
 mkdir $HOME/Projects
@@ -51,6 +53,7 @@ mkdir $HOME/Games/Lutrisenses
 
 printf "\n\n[$] > Copying config files...\n\n"
 cp -r "$PWD/font/"* "$FONT"
+cp -r "$PWD/logos/"* "$LOGOS"
 cp -r "$PWD/src/"* "$CONFIG"
 cp -r "$PWD/shell/".[^.]* "$HOME"
 sudo cp -r "$PWD/xorgs/"* "/etc/X11/xorg.conf.d/"
