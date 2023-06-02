@@ -16,28 +16,28 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 
 ## System
 
-- [x] **Distribution** -> Artix
-- [x] **GPU Drivers** -> NVIDIA
+- [x] **Distro** -> arch
+- [x] **Kernel** -> linux
+- [x] **GPU** -> nvidia (1080 ti)
+- [x] **CPU** -> intel (i5-12400k)
 
 ## Workspace
 
-- [x] **Window Manager** -> Qtile
-- [x] **Compositor** -> Picom
-- [x] **App Launcher** -> Rofi
-- [x] **Background** -> Feh
-- [x] **Font** -> JetBrains
-- [x] **Browser** -> Firefox
+- [x] **Window Manager** -> qtile
+- [x] **Compositor** -> picom
+- [x] **App Launcher** -> rofi
+- [x] **Background** -> feh
+- [x] **Font** -> jetbrains
+- [x] **Browser** -> firefox
 
 ## Apps
 
-- [x] **Terminal** -> Alacritty
-- [x] **Text Editor** -> Neovim
-- [x] **Shell** -> Bash
-- [x] **Document Reader** -> Zathura
-- [x] **Messenger** -> Telegram
-- [x] **VoIP** -> Discord
-- [x] **Torrent** -> QBitTorrent
-- [x] **Notes** -> Obsidian
+- [x] **Terminal** -> alacritty
+- [x] **Text Editor** -> neovim
+- [x] **Shell** -> bash
+- [x] **Document Reader** -> zathura
+- [x] **Torrent** -> rtorrent
+- [x] **Notes** -> obsidian
 
 ## Utilities
 
