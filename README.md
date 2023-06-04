@@ -45,7 +45,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Color Picker** -> xcolor
 - [x] **Icons Theme** -> papirus
 - [x] **Screenshot Tool** -> hacksaw, shotgun
-- [x] **File Manager** -> ranger
+- [x] **File Manager** -> ranger, fzf
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
 - [x] **Devices Automounter** -> udiskie
