@@ -19,7 +19,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Distro** -> arch
 - [x] **Kernel** -> linux
 - [x] **GPU** -> nvidia (1080 ti)
-- [x] **CPU** -> intel (i5-12400k)
+- [x] **CPU** -> intel (i5-12400kf)
 
 ## Workspace
 
@@ -38,7 +38,6 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 - [x] **Document Reader** -> zathura
 - [x] **Torrent** -> rtorrent
 - [x] **Notes** -> obsidian
-- [x] **Gaming** -> wine
 
 ## Utilities
 
