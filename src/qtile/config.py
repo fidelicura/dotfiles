@@ -22,7 +22,7 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config()),
 ]
 
-groups = [Group(i) for i in "123456"]
+groups = [Group(i) for i in "12345"]
 for i in groups:
     keys.extend(
         [
@@ -45,10 +45,10 @@ layouts = [
 
 screens = [
     Screen(
-        top=bar.Gap(20),
+        top=bar.Gap(50),
         right=bar.Gap(20),
         left=bar.Gap(20),
-        bottom=bar.Gap(20)
+        bottom=bar.Gap(5)
     ),
 ]
 
