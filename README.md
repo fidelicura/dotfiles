@@ -25,7 +25,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 
 - [x] **Window Manager** -> qtile
 - [ ] **Notification Manager** -> dunst
-- [ ] **Status Bar** -> polybar
+- [x] **Status Bar** -> polybar
 - [x] **Compositor** -> picom
 - [x] **App Launcher** -> rofi
 - [x] **Background** -> feh
