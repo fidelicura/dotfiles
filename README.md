@@ -6,11 +6,13 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 
 ## Screenshots
 
-![alacritty](/screenshots/alacritty.png/?raw=true)
-![neovim](/screenshots/neovim.png/?raw=true)
-![firefox](/screenshots/firefox.png/?raw=true)
-![zathura](/screenshots/zathura.png/?raw=true)
-![obsidian](/screenshots/obsidian.png/?raw=true)
+![afk](/screenshots/afk.png/?raw=true)
+![notifications](/screenshots/notifications.png/?raw=true)
+![terminal](/screenshots/terminal.png/?raw=true)
+![text](/screenshots/text.png/?raw=true)
+![browser](/screenshots/browser.png/?raw=true)
+![notes](/screenshots/notes.png/?raw=true)
+![reader](/screenshots/reader.png/?raw=true)
 
 ## Config State
 
