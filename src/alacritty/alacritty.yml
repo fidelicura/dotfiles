@@ -1,4 +1,3 @@
-# font
 font:
   size: 14
   normal:
@@ -6,15 +5,17 @@ font:
     style: Regular
   bold:
     family: JetBrains Mono Nerd Font Mono
-    style: SemiBold
+    style: Bold
   italic:
     family: JetBrains Mono Nerd Font Mono
-    style: Medium
+    style: Italic
+  bold_italic:
+    family: JetBrains Mono Nerd Font Mono
+    style: Bold Italic
 
-# window
 window:
   startup_mode: Windowed
-  decorations: Full
+  decorations: None
   title: "Terminal [Alacritty]"
   dynamic_padding: true
   padding:
@@ -24,7 +25,6 @@ window:
     instance: Alacritty
     general: Alacritty
 
-# theme
 colors:
   primary:
     background: '0x282828'
@@ -48,7 +48,8 @@ colors:
     cyan:    '0x8ec07c'
     white:   '0xebdbb2'
 
-# environment
 env:
   TERM: xterm-256color
 
+shell:
+  program: /usr/bin/bash
