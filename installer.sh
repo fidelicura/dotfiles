@@ -41,10 +41,10 @@ $INST -S python gcc
 printf "\n\n[$] > Creating folders...\n\n"
 mkdir -p "$CONFIG" "$FONT"
 mkdir -p "$CONFIG" "$LOGOS"
-mkdir $HOME/Screenshots
 mkdir $HOME/Downloads
 mkdir $HOME/Projects
 mkdir $HOME/Notes
+mkdir $HOME/Media
 
 
 printf "\n\n[$] > Copying config files...\n\n"
