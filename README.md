@@ -62,8 +62,8 @@ Have a good day.
 - [x] **Terminal Info** -> pfetch
 - [x] **Color Picker** -> xcolor
 - [x] **Icons Theme** -> papirus
-- [x] **Screenshot Tool** -> hacksaw, shotgun
-- [x] **File Manager** -> ranger, fzf
+- [x] **Screenshot Tool** -> hacksaw + shotgun
+- [x] **File Managers** -> ranger, fzf
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
 - [x] **Devices Automounter** -> udiskie
