@@ -65,16 +65,16 @@ Have a good day.
 - [x] **File Manager** -> ranger, fzf
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
-
-### Scripts
-
-- [x] **Bash History Clear** -> `bashclear`
 - [x] **Devices Automounter** -> udiskie
 
-## Libraries
+### Libraries
 
 - [x] **Archive Extractors** -> unzip, unrar
 - [x] **AppImage Library** -> fuse2
 - [x] **Copyboard Library** -> xclip
 - [x] **Display Settings** -> xrandr
 - [x] **Directory Listing** -> tree
+
+### Scripts
+
+- [x] **Bash History Clear** -> `bashclear`
