@@ -18,7 +18,7 @@
 
 ## Installation
 
-**Config installer will <ins>update your system</ins>, <ins>remove all unused by this config desktop entries</ins>, <ins>clear packages cache</ins> and <ins>reboot your pc</ins>! Be aware.**
+**Installer will <ins>update your system</ins>, <ins>remove all unused by this config desktop entries</ins>, <ins>clear packages cache</ins> and <ins>reboot your pc</ins>, be aware.**
 >Install from "zero" config (from empty Arch after installation), e.g. after "Minimal" installation from `archinstall` official script.
 
 Just run `install.sh` and here you go.
