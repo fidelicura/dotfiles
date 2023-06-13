@@ -1,0 +1,49 @@
+[global]
+    font = JetBrainsNFM 10
+    origin = top-center
+    offset = 0x67
+    width = (450, 750)
+    height = 250
+    markup = full
+    format = "<b>%s</b>\n%b"
+    sort = yes
+    indicate_hidden = yes
+    alignment = center
+    show_age_threshold = 60
+    word_wrap = yes
+    ignore_newline = no
+    title = Dunst
+    class = Dunst
+    shrink = no
+    transparency = 0
+    idle_threshold = 120
+    progress_bar = true
+    monitor = 0
+    follow = mouse
+    stack_duplicates = true
+    hide_duplicate_count = false
+    sticky_history = yes
+    history_length = 5
+    show_indicators = no
+    line_height = 0
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 8
+    always_run_script = true
+
+[urgency_low]
+    background = "#262626"
+    foreground = "#fe8019"
+    frame_color = "#9a8a7a"
+    timeout = 2
+
+[urgency_normal]
+    background = "#262626"
+    foreground = "#fe8019"
+    frame_color = "#fe8019"
+    timeout = 2
+
+[urgency_critical]
+    background = "#262626"
+    foreground = "#fb4934"
+    timeout = 0

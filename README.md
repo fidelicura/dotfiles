@@ -24,7 +24,7 @@ I think, this is really hard to achieve goal, but I'm trying my best. Thanks and
 ## Workspace
 
 - [x] **Window Manager** -> qtile
-- [ ] **Notification Manager** -> dunst
+- [x] **Notification Manager** -> dunst
 - [x] **Status Bar** -> polybar
 - [x] **Compositor** -> picom
 - [x] **App Launcher** -> rofi
