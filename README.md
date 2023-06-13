@@ -6,13 +6,17 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 
 ## Screenshots
 
-![afk](/screenshots/afk.png/?raw=true)
-![notifications](/screenshots/notifications.png/?raw=true)
-![terminal](/screenshots/terminal.png/?raw=true)
-![text](/screenshots/text.png/?raw=true)
-![browser](/screenshots/browser.png/?raw=true)
-![notes](/screenshots/notes.png/?raw=true)
-![reader](/screenshots/reader.png/?raw=true)
+| Notifications | Clean | Terminal |
+|:---:|:---:|:---:|
+| ![notifications](/screenshots/notifications.png/?raw=true) | ![clean](/screenshots/clean.png/?raw=true) | ![terminal](/screenshots/terminal.png/?raw=true) |
+
+| Text Editor | Browser |
+|:---:|:---:|
+| ![text](/screenshots/text.png/?raw=true) | ![browser](/screenshots/browser.png/?raw=true) |
+
+| Reader | Notes |
+|:---:|:---:|
+| ![reader](/screenshots/reader.png/?raw=true) | ![notes](/screenshots/notes.png/?raw=true) |
 
 ## Config State
 
