@@ -18,7 +18,7 @@
 
 ## Installation
 
-**Installer will <ins>update your system</ins>, <ins>remove all unused by this config desktop entries</ins>, <ins>clear packages cache</ins> and <ins>reboot your pc</ins>.**
+**Installer will <ins>update your system</ins>, <ins>remove all unused by this config desktop entries</ins>, <ins>clear packages cache</ins>, <ins>overwrite your XDG variables</ins> and <ins>reboot your pc</ins>.**
 
 >Install from "zero" config, e.g. after "Minimal" installation from `archinstall` official installation script.
 
