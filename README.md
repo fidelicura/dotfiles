@@ -35,7 +35,7 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 - [x] **App Launcher** -> rofi
 - [x] **Background** -> feh
 - [x] **Font** -> jetbrains
-- [x] **Browser** -> firefox
+- [x] **Browser** -> brave (not installed by default because of AUR-based)
 
 ## Apps
 
