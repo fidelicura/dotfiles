@@ -4,10 +4,6 @@
 |:---:|:---:|
 | ![clean](/screenshots/clean.png/?raw=true) | ![terminal](/screenshots/terminal.png/?raw=true) |
 
-| Notifications | Launcher |
-|:---:|:---:|
-| ![notifications](/screenshots/notifications.png/?raw=true) | ![launcher](/screenshots/launcher.png/?raw=true) |
-
 | Editor | Browser |
 |:---:|:---:|
 | ![editor](/screenshots/editor.png/?raw=true) | ![browser](/screenshots/browser.png/?raw=true) |
@@ -15,6 +11,10 @@
 | Reader | Notes |
 |:---:|:---:|
 | ![reader](/screenshots/reader.png/?raw=true) | ![notes](/screenshots/notes.png/?raw=true) |
+
+| Notifications | Launcher |
+|:---:|:---:|
+| ![notifications](/screenshots/notifications.png/?raw=true) | ![launcher](/screenshots/launcher.png/?raw=true) |
 
 ## Installation
 
