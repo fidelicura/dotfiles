@@ -25,7 +25,7 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S intel-ucode nvidia nvidia-utils
+$INST -S intel-ucode nvidia
 $INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xclip xcolor feh papirus-icon-theme wget curl tree hacksaw
