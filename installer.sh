@@ -32,7 +32,7 @@ $INST -S xclip xcolor feh papirus-icon-theme wget curl tree hacksaw man-pages
 $INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler
-$INST -S rtorrent ranger obsidian neofetch fzf polybar dunst
+$INST -S rtorrent ranger obsidian neofetch fzf polybar dunst xdg-user-dirs
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y
 $INST -S python gcc
