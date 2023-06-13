@@ -1,12 +1,12 @@
 ## Screenshots
 
-| Notifications | Launcher |
-|:---:|:---:|
-| ![notifications](/screenshots/notifications.png/?raw=true) | ![launcher](/screenshots/launcher.png/?raw=true) |
-
 | Clean | Terminal |
 |:---:|:---:|
 | ![clean](/screenshots/clean.png/?raw=true) | ![terminal](/screenshots/terminal.png/?raw=true) |
+
+| Notifications | Launcher |
+|:---:|:---:|
+| ![notifications](/screenshots/notifications.png/?raw=true) | ![launcher](/screenshots/launcher.png/?raw=true) |
 
 | Editor | Browser |
 |:---:|:---:|
