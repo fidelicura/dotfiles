@@ -1,6 +1,6 @@
 #!/bin/bash
 
-feh --bg-fill $HOME/.config/bg/bg.png &
+feh --bg-fill $HOME/.config/bg/bg.jpg &
 $HOME/.config/polybar/launch.sh $
 setxkbmap -layout "us,ru" -option "grp:switch,grp:alt_shift_toggle" &
 xrandr --output HDMI-1 --mode 1920x1080 --rate 75 &
