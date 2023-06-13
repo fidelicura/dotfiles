@@ -59,6 +59,12 @@ $GITHUB credential.helper store
 $GITHUB http.postBuffer 157286400
 
 
+printf "\n\n[$] > Deleting unnecessary files...\n\n"
+shopt -s extglob
+sudo bash -c 'cd /usr/share/applications && rm -v !("Alacritty.desktop"|"brave-browser.desktop"|"obsidian.desktop"|"org.pwmt.zathura.desktop"|"xcolor.desktop")'
+shopt -u extglob
+
+
 printf "\n\n[$] > Updating system packages...\n\n"
 $INST -Syu
 

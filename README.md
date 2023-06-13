@@ -1,5 +1,8 @@
-Hello and welcome! So, goal of my configurations is simple: run `installer.sh` and start to work!
-I think, this is really hard to achieve goal, but I'm trying my best. Thanks and have a nice day.
+## Description
+
+Just my dotfiles configuration. Screenshots are below.
+If you want to install my configuration, you'll have to do it from "zero" config (from empty Arch after installation).
+For example, install Arch via `archinstall` official utility in "Minimal" configuration with setting up network and user (don't set up sound), reboot to the system and then install my config via `install.sh` file. Have a good day.
 
 ## Screenshots
 
