@@ -1,6 +1,6 @@
 ## Screenshots
 
-| Notifications | App Launcher |
+| Notifications | Launcher |
 |:---:|:---:|
 | ![notifications](/screenshots/notifications.png/?raw=true) | ![launcher](/screenshots/launcher.png/?raw=true) |
 
@@ -8,9 +8,9 @@
 |:---:|:---:|
 | ![clean](/screenshots/clean.png/?raw=true) | ![terminal](/screenshots/terminal.png/?raw=true) |
 
-| Text Editor | Browser |
+| Editor | Browser |
 |:---:|:---:|
-| ![text](/screenshots/text.png/?raw=true) | ![browser](/screenshots/browser.png/?raw=true) |
+| ![editor](/screenshots/editor.png/?raw=true) | ![browser](/screenshots/browser.png/?raw=true) |
 
 | Reader | Notes |
 |:---:|:---:|
