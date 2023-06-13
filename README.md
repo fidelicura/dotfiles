@@ -1,14 +1,12 @@
-## Description
-
-Just my dotfiles configuration. Screenshots are below.
-If you want to install my configuration, you'll have to do it from "zero" config (from empty Arch after installation).
-For example, install Arch via `archinstall` official utility in "Minimal" configuration with setting up network and user (don't set up sound), reboot to the system and then install my config via `install.sh` file. Have a good day.
-
 ## Screenshots
 
-| Notifications | Clean | Terminal |
-|:---:|:---:|:---:|
-| ![notifications](/screenshots/notifications.png/?raw=true) | ![clean](/screenshots/clean.png/?raw=true) | ![terminal](/screenshots/terminal.png/?raw=true) |
+| Notifications | App Launcher |
+|:---:|:---:|
+| ![notifications](/screenshots/notifications.png/?raw=true) | ![launcher](/screenshots/launcher.png/?raw=true) |
+
+| Clean | Terminal |
+|:---:|:---:|
+| ![clean](/screenshots/clean.png/?raw=true) | ![terminal](/screenshots/terminal.png/?raw=true) |
 
 | Text Editor | Browser |
 |:---:|:---:|
@@ -18,19 +16,27 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 |:---:|:---:|
 | ![reader](/screenshots/reader.png/?raw=true) | ![notes](/screenshots/notes.png/?raw=true) |
 
-## Config State
+## Installation
+
+**Config installer will <ins>update your system</ins>, <ins>remove all unused by this config desktop entries</ins>, <ins>clear packages cache</ins> and <ins>reboot your pc</ins>! Be aware.**
+>Install from "zero" config (from empty Arch after installation), e.g. after "Minimal" installation from `archinstall` official script.
+
+Just run `install.sh` and here you go.
+Have a good day.
+
+## State
 
 - [x] Files
 - [x] Installer
 
-## System
+### System
 
 - [x] **Distro** -> arch
 - [x] **Kernel** -> linux
 - [x] **GPU** -> nvidia (1080 ti)
 - [x] **CPU** -> intel (i5-12400kf)
 
-## Workspace
+### Workspace
 
 - [x] **Window Manager** -> qtile
 - [x] **Notification Manager** -> dunst
@@ -41,7 +47,7 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 - [x] **Font** -> jetbrains
 - [x] **Browser** -> brave (not installed by default because of AUR-based)
 
-## Apps
+### Apps
 
 - [x] **Terminal** -> alacritty
 - [x] **Text Editor** -> neovim
@@ -50,7 +56,7 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 - [x] **Torrent** -> rtorrent
 - [x] **Notes** -> obsidian
 
-## Utilities
+### Utilities
 
 - [x] **Terminal Info** -> pfetch
 - [x] **Color Picker** -> xcolor
@@ -59,6 +65,10 @@ For example, install Arch via `archinstall` official utility in "Minimal" config
 - [x] **File Manager** -> ranger, fzf
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
+
+### Scripts
+
+- [x] **Bash History Clear** -> `bashclear`
 - [x] **Devices Automounter** -> udiskie
 
 ## Libraries
