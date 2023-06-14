@@ -26,7 +26,7 @@ $INST -Syu
 
 printf "\n\n[$] > Installing libraries...\n\n"
 $INST -S linux linux-firmware linux-headers intel-ucode nvidia
-$INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit
+$INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit xorg-xset
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xclip xcolor feh papirus-icon-theme wget curl tree hacksaw man-db
 $INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
