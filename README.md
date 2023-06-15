@@ -67,6 +67,7 @@ Have a good day.
 - [x] **File Retrievers** -> wget, curl
 - [x] **Audio** -> pipewire
 - [x] **Devices Automounter** -> udiskie
+- [x] **Process Viewer** -> htop
 
 ### Libraries
 
