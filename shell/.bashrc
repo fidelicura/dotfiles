@@ -1,6 +1,7 @@
 [[ $- != *i* ]] && return
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export EDITOR="nvim"
 
 alias free="free -mht"
