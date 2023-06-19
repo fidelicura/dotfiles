@@ -25,6 +25,8 @@
 Just run `install.sh` and here you go.
 Have a good day.
 
+p.s. I really prefer installing Brave and OpenOffice by building from AUR, not via AUR helpers.
+
 ## State
 
 - [x] Files
@@ -46,14 +48,15 @@ Have a good day.
 - [x] **App Launcher** -> rofi
 - [x] **Background** -> feh
 - [x] **Font** -> jetbrains
-- [x] **Browser** -> brave (not installed by default because of AUR-based)
 
 ### Apps
 
 - [x] **Terminal** -> alacritty
 - [x] **Text Editor** -> neovim
+- [x] **Browser** -> brave (build from source)
 - [x] **Shell** -> bash
-- [x] **Document Reader** -> zathura
+- [x] **Reader** -> zathura
+- [x] **Documents** -> openoffice (build from source)
 - [x] **Torrent** -> rtorrent
 - [x] **Notes** -> obsidian
 
