@@ -24,8 +24,11 @@ bashclear() {
         printf "\n[$] > Bash history cleared.\n"
 }
 
-PS1="
-[#] \w [>] "
+if [[ "$VIRTUAL_ENV" =~ "poetry" ]]; then
+    PS1='\n[poetry] \w [>] '
+else
+    PS1='\n[#] \w [>] '
+fi
 
 neofetch
 ls
