@@ -25,7 +25,7 @@
 Just run `install.sh` and here you go.
 Have a good day.
 
-p.s. I really prefer installing Brave and OpenOffice by building from AUR, not via AUR helpers.
+p.s. I really prefer installing Brave and OnlyOffice by building from AUR, not via AUR helpers.
 
 ## State
 
@@ -56,7 +56,7 @@ p.s. I really prefer installing Brave and OpenOffice by building from AUR, not v
 - [x] **Browser** -> brave (build from source)
 - [x] **Shell** -> bash
 - [x] **Reader** -> zathura
-- [x] **Documents** -> openoffice (build from source)
+- [x] **Documents** -> onlyoffice (build from source)
 - [x] **Torrent** -> rtorrent
 - [x] **Notes** -> obsidian
 
