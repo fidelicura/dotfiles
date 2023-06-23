@@ -45,6 +45,7 @@ mkdir $HOME/Downloads
 mkdir $HOME/Projects
 mkdir $HOME/Notes
 mkdir $HOME/Media
+mkdir $HOME/Books
 
 
 printf "\n\n[$] > Copying config files...\n\n"
