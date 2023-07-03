@@ -25,7 +25,7 @@ $INST -Syu
 
 
 printf "\n\n[$] > Installing libraries...\n\n"
-$INST -S linux linux-firmware linux-headers intel-ucode nvidia
+$INST -S linux linux-firmware linux-headers intel-ucode nvidia gtk2 gtk3
 $INST -S xorg-server xorg-server-common xorg-xrandr xorg-xinit xorg-xset
 printf "\n\n[$] > Installing programming languages...\n\n"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile default -y

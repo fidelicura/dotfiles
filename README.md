@@ -20,6 +20,7 @@
 
 **Installer will <ins>update your system</ins>, <ins>remove all unused by this config desktop entries</ins>, <ins>clear packages cache</ins>, <ins>overwrite your XDG variables</ins> and <ins>reboot your pc</ins>.**
 
+>Know that my config installs gtk2 and gtk3 as UI libraries, because I don't really like Qt, but it is still nice UI library.
 >Install from "zero" config, e.g. after "Minimal" installation from `archinstall` official installation script.
 
 Just run `install.sh` and here you go.
