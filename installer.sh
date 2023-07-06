@@ -60,6 +60,7 @@ $GITHUB user.email fidelicura@gmail.com
 $GITHUB user.name fidelicura
 $GITHUB credential.helper store
 $GITHUB http.postBuffer 157286400
+pactl set-sink-volume @DEFAULT_SINK@ 80%
 
 
 printf "\n\n[$] > Deleting unnecessary files...\n\n"
