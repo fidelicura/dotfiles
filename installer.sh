@@ -32,7 +32,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --profile d
 $INST -S gcc python python-wheel
 printf "\n\n[$] > Installing utilities...\n\n"
 $INST -S xclip xcolor feh papirus-icon-theme wget curl tree hacksaw man-db man-pages
-$INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
+$INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun udiskie
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler htop
 $INST -S rtorrent ranger obsidian neofetch fzf polybar dunst systemd-resolvconf
