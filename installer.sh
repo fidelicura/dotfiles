@@ -36,6 +36,8 @@ $INST -S pipewire pipewire-pulse pipewire-media-session unzip unrar shotgun
 printf "\n\n[$] > Installing applications...\n\n"
 $INST -S qtile picom rofi alacritty neovim zathura zathura-pdf-poppler htop
 $INST -S rtorrent ranger obsidian neofetch fzf polybar dunst systemd-resolvconf
+printf "\n\n[$] > Enabling services... \n\n"
+sudo systemctl enable NetworkManager.service
 
 
 printf "\n\n[$] > Creating folders...\n\n"
